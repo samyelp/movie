@@ -75,8 +75,6 @@ def movies():
     print('---------no DATA')
     return render_template('movies.html')
 
-if __name__=='__main__':
-    app.run(debug=True)
 
 #@app.route("/home")
 #def home():

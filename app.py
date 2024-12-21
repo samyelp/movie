@@ -5,9 +5,6 @@ import difflib
 
 
 
-movie =pickle.load(open('movie_dataset/movies.pkl','rb'))
-similar1 = pickle.load(open('movie_dataset/simi.pkl','rb'))
-
 movie =pd.read_pickle('movie_dataset/movies.pkl')
 similar1 = pd.read_pickle('movie_dataset/simi.pkl')
 
